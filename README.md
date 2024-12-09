@@ -1,5 +1,5 @@
 # suppa
 
 contributors: 
-Misha Khan
-Chethan Agarwal
+Misha Khan mkhan419
+Chethan Agarwal cagarwa2
