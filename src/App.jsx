@@ -9,6 +9,25 @@ function App() {
     <>
     <Header></Header>
     <Navbar></Navbar>
+
+    <hr></hr>
+
+    <div id="home">
+      <p>The word <span style={{color: 'rgba(92, 141, 108, 1)'}}>soup</span> orinates from post-classical Latin verb <span style={{color: 'rgba(92, 141, 108, 1)'}}>suppāre</span> meaning ‘soak’, borrowed from Germanic root sup- to English <span style={{color: 'rgba(92, 141, 108, 1)'}}>supper</span>.
+        <br></br>From it was derived the noun suppa, which passed into Old French as soupe. </p>
+
+        <p>with which we then created: <span style={{color: 'rgba(92, 141, 108, 1)'}}>suppa</span></p>
+
+    </div>
+    <div id="content">
+       {/* <img src={} alt="" /> */}
+
+       <p>why we created suppa</p>
+
+      <p>our vision</p>
+
+      <p>about us</p>
+    </div>
     </>
   );
 }
