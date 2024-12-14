@@ -8,11 +8,8 @@ const Navbar = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        padding: "16px 32px",
         backgroundColor: "rgba(26, 11, 30, 1)",
         color: "rgba(155, 105, 193, 1)",
-        marginTop: "200px",
-        marginLeft: "100px",
       }}
     >
 
