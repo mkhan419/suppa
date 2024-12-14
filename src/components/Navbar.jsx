@@ -1,7 +1,8 @@
 import React from "react";
-import { Box, Typography, Button } from "@mui/material";
+import { Box, Button } from "@mui/material";
+import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+export default function Navbar() {
   return (
     <Box
       sx={{
@@ -15,21 +16,24 @@ const Navbar = () => {
 
       {/* Navigation Links */}
       <Box sx={{ display: "flex", gap: "50px" }}>
-        <Button color="inherit" sx={{ textTransform: "none", fontSize: "20px" }}>
-          Home
+        <Button color="inherit" sx={{ textTransform: "none", fontSize: "20px", fontFamily: "'Times New Roman', Times, serif", }} >
+          about us
         </Button>
-        <Button color="inherit" sx={{ textTransform: "none", fontSize: "20px" }}>
-          About
+        <Button 
+          component={Link} 
+          to="/menu" 
+          color="inherit" 
+          sx={{ textTransform: "none", fontSize: "20px", fontFamily: "'Times New Roman', Times, serif", }}
+        >
+          cuisine
         </Button>
-        <Button color="inherit" sx={{ textTransform: "none", fontSize: "20px" }}>
-          Services
+        <Button color="inherit" sx={{ textTransform: "none", fontSize: "20px", fontFamily: "'Times New Roman', Times, serif", }}>
+          reservations & order
         </Button>
-        <Button color="inherit" sx={{ textTransform: "none", fontSize: "20px" }}>
-          Contact
+        <Button color="inherit" sx={{ textTransform: "none", fontSize: "20px", fontFamily: "'Times New Roman', Times, serif", }}>
+          events
         </Button>
       </Box>
     </Box>
   );
 };
-
-export default Navbar;
