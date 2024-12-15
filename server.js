@@ -5,8 +5,8 @@ require("dotenv").config({ path: path.resolve(__dirname, 'credentialsDontPost/.e
 const port = process.argv[2]; 
  
 app.use(express.urlencoded({ extended: true })); 
-app.set("views", path.resolve(__dirname, "templates")); 
-app.set("view engine", "ejs"); 
+// app.set("views", path.resolve(__dirname, "templates")); 
+// app.set("view engine", "ejs"); 
  
 const uri = process.env.MONGO_CONNECTION_STRING; 
 const { MongoClient, ServerApiVersion } = require('mongodb'); 
@@ -41,7 +41,7 @@ process.stdin.on('readable', () => {
 }); 
  
 app.get("/", (request, response) => {  
-    response.render("index");  
+     
 }) 
  
 app.listen(port);
