@@ -27,8 +27,5 @@ h4 {
 div#latin, div#asian {
     display: flex;
     flex-direction: column;
-
     padding: 20px;
 }
-
-

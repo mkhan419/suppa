@@ -9,6 +9,8 @@ const Menu = () => {
       <Header />
       <Navbar />
 
+      <hr></hr>
+
       <div id="menutop">
         <div style={{ flex: "1" }}>
           <h1>Soup of the Day</h1>

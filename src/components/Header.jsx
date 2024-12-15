@@ -5,9 +5,12 @@ export default function Header() {
     <div id="box">
         <h2 id="suppa">suppa</h2>
         <div id="name">
-            <h3>"soup-uh"</h3>
-            <h3>soup bar</h3>
+            <h3 id="soupuh">"soup-uh"</h3>
+            <h3 id="soupbar">soup bar</h3>
        </div>
+       
     </div>
+
+    
     );
 }

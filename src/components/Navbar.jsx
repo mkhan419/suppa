@@ -23,7 +23,7 @@ export default function Navbar() {
           about us
         </Button>
         <Button 
-          component={Link} 
+          component={Link}
           to="/menu" 
           color="inherit" 
           sx={{ textTransform: "none", fontSize: "20px", fontFamily: "'Times New Roman', Times, serif", }}
