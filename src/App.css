@@ -8,10 +8,12 @@ body {
 }
 
 hr {
+  margin: 5rem;
   border-color: rgba(155, 105, 193, 1);
 }
 
 #home {
+  margin: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

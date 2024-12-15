@@ -16,7 +16,10 @@ export default function Navbar() {
 
       {/* Navigation Links */}
       <Box sx={{ display: "flex", gap: "50px" }}>
-        <Button color="inherit" sx={{ textTransform: "none", fontSize: "20px", fontFamily: "'Times New Roman', Times, serif", }} >
+        <Button 
+        component={Link} 
+        to="/"
+        color="inherit" sx={{ textTransform: "none", fontSize: "20px", fontFamily: "'Times New Roman', Times, serif", }} >
           about us
         </Button>
         <Button 
